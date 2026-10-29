@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXUS — Family AI Game Day</title>
+  <meta name="theme-color" content="#0b1012">
+  <meta name="description" content="NEXUS: five challenges, two teams, one unforgettable family championship. Browser-saved, transparent scoring.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="experience.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <div class="noise-layer" aria-hidden="true"></div><div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="NEXUS home"><span class="brand-mark"><span class="brand-orbit" aria-hidden="true"></span>N</span><span>NEXUS<small>THE FAMILY CHAMPIONSHIP</small></span></a>
+    <nav class="top-nav" aria-label="Primary"><button class="nav-link" data-view="homeView" type="button">The arena</button><button class="nav-link" id="navResults" type="button">Scoreboard</button></nav><div class="top-meta"><span class="live-dot"></span><span>OFFLINE READY</span><span class="divider">/</span> TEAM 260</div>
+  </header>
+  <main id="mainContent">
+    <section id="homeView" class="view active">
+      <div class="hero">
+        <div class="hero-content">
+          <div class="eyebrow hero-kicker"><span class="kicker-square"></span> ADU · COE STEM AI COMPETITION <span class="kicker-index">/ 2026</span></div>
+          <div class="hero-title-wrap"><span class="hero-pretitle">WELCOME TO THE NEXT LEVEL OF</span><h1><span class="title-line">FAMILY</span><span class="title-line outlined-title">GAME <em>DAY.</em></span></h1></div>
+          <p class="hero-copy">Five trials. Two teams. One shared adventure. Where every moment counts, and every victory has a story to tell.</p>
+          <div class="hero-actions"><button class="primary-btn" id="startBtn">Enter the arena <span aria-hidden="true">↗</span></button><button class="ghost-btn" id="howBtn"><span class="circle-play" aria-hidden="true">▶</span> Explore the experience</button></div>
+          <div class="hero-bottom"><div class="hero-stats"><div><strong>05</strong><span>TRIALS</span></div><div><strong>02</strong><span>TEAMS</span></div><div><strong>01</strong><span>CHAMPION</span></div></div><div class="hero-side-note"><span class="crosshair">✳</span><span>DESIGNED TO<br>BRING US TOGETHER</span></div></div>
+        </div>
+        <div class="hero-art" aria-hidden="true"><div class="art-overline"><span>THE NEXUS UNIVERSE</span><span>VOL. 001 / EST. 2026</span></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div><div class="art-globe"><div class="globe-grid"></div><div class="globe-highlight"></div><span class="globe-n">N<span class="globe-star">✳</span></span></div><div class="art-cross a-cross-one">+</div><div class="art-cross a-cross-two">+</div><div class="art-caption"><span>001 — THE CONNECTION</span><strong>BETTER<br>TOGETHER<span class="dot">.</span></strong></div><div class="art-coordinate">24°27′ N<br>54°22′ E</div></div>
+        <div class="hero-scroll-cue"><span>SCROLL TO DISCOVER</span><span class="scroll-line"></span><span>↓</span></div>
+      </div>
+      <div class="marquee" aria-hidden="true"><div class="marquee-track">PLAY TOGETHER <span>✳</span> THINK DIFFERENTLY <span>✳</span> WIN AS ONE <span>✳</span> PLAY TOGETHER <span>✳</span> THINK DIFFERENTLY <span>✳</span> WIN AS ONE <span>✳</span></div></div>
+      <div class="section-heading"><div><span class="eyebrow">01 / PICK YOUR PATH</span><h2>Five ways to <em>play.</em></h2><p class="section-intro">From quick thinking to teamwork under pressure. Every trial brings a different kind of energy.</p></div><span class="muted">EXPLORE THE TRIALS <span class="arrow-southeast">↘</span></span></div>
+      <div class="game-grid">
+        <button class="game-card featured" data-game="football"><span class="game-number">01 / REQUIRED</span><span class="game-icon">⚽</span><span class="card-art card-art-football" aria-hidden="true"><span></span></span><h3>Orbital Football</h3><p>Log match events and build an evidence-backed score.</p><span class="card-link">START TRIAL <span aria-hidden="true">↗</span></span></button>
+        <button class="game-card" data-game="memory"><span class="game-number">02 / MEMORY</span><span class="game-icon">🗺️</span><span class="card-art card-art-memory" aria-hidden="true">✳</span><h3>Heritage Memory</h3><p>Study a heritage scene, then unlock the map with correct answers.</p><span class="card-link">START TRIAL <span aria-hidden="true">↗</span></span></button>
+        <button class="game-card" data-game="engineers"><span class="game-number">03 / BUILD</span><span class="game-icon">🏗️</span><span class="card-art card-art-build" aria-hidden="true">▥</span><h3>Titan Engineers</h3><p>Build a tall, stable tower from everyday objects.</p><span class="card-link">START TRIAL <span aria-hidden="true">↗</span></span></button>
+        <button class="game-card" data-game="rhythm"><span class="game-number">04 / RHYTHM</span><span class="game-icon">🥁</span><span class="card-art card-art-rhythm" aria-hidden="true">≋</span><h3>Echo Rhythm</h3><p>Repeat a beat and compare your timing.</p><span class="card-link">START TRIAL <span aria-hidden="true">↗</span></span></button>
+        <button class="game-card" data-game="protocol"><span class="game-number">05 / CO-OP</span><span class="game-icon">🔐</span><span class="card-art card-art-protocol" aria-hidden="true">✳</span><h3>The Final Protocol</h3><p>Combine achievements from earlier games to unlock the finale.</p><span class="card-link">START TRIAL <span aria-hidden="true">↗</span></span></button>
+      </div>
+      <div class="notice"><span>ⓘ</span><div><strong>Honest by design</strong><p>This application saves user-confirmed game actions and evidence records in this browser. Export a backup to keep or move your championship. It does not yet automatically recognize football goals or identify people in video. Those detections must be implemented and tested before claiming full AI vision.</p></div></div>
+    </section>
+
+    <section id="setupView" class="view">
+      <button class="back-link" data-view="homeView">← Back to arena</button>
+      <div class="page-title"><span class="eyebrow">02 / CHAMPIONSHIP SETUP</span><h1>Build your <span class="gradient-text">lineup.</span></h1><p>Set up players and teams before the first trial.</p></div>
+      <div class="panel setup-panel">
+        <div class="panel-heading"><div><span class="eyebrow">01 / PLAYERS</span><h2>Who’s playing?</h2></div><span class="muted">2–6 PLAYERS</span></div><p class="setup-hint">Assign every player to Team A or Team B. Both teams need at least one player.</p><div id="teamRoster" class="team-roster" aria-live="polite"></div>
+        <div id="playersList" class="players-list"></div>
+        <button id="addPlayerBtn" class="ghost-btn small-btn">＋ Add player</button>
+        <div class="form-grid"><label>Team A name<input id="teamAName" value="Comets" maxlength="24"></label><label>Team B name<input id="teamBName" value="Orbit" maxlength="24"></label></div>
+        <button id="saveSetupBtn" class="primary-btn">Save lineup <span>↗</span></button>
+      </div>
+    </section>
+
+    <section id="gameView" class="view">
+      <button class="back-link" data-view="homeView">← Back to arena</button>
+      <div class="game-head"><div><span id="gameEyebrow" class="eyebrow">TRIAL 01</span><h1 id="gameTitle">Orbital Football</h1><p id="gameDescription">Every point should have a reason.</p></div><div class="timer-box"><span>SESSION TIMER</span><strong id="timerDisplay">01:30</strong><button id="timerBtn" class="text-btn">Start timer</button></div></div>
+      <div class="score-strip"><div><span id="scoreTeamAName">Comets</span><strong id="scoreA">0</strong></div><div class="score-vs">VS</div><div><span id="scoreTeamBName">Orbit</span><strong id="scoreB">0</strong></div></div>
+      <div id="gameContent" class="panel game-panel"></div>
+      <div class="panel evidence-panel"><div class="panel-heading"><div><span class="eyebrow">AUDIT TRAIL</span><h2>Evidence log</h2></div><span id="eventCount" class="count-pill">0 EVENTS</span></div><div id="eventLog" class="event-log"><div class="empty-state">No events yet. Verified actions will appear here with their source and score.</div></div></div>
+    </section>
+
+    <section id="resultsView" class="view">
+      <button class="back-link" data-view="homeView">← Back to arena</button>
+      <div class="page-title"><span class="eyebrow">CHAMPIONSHIP REPORT</span><h1>The results are <span class="gradient-text">in.</span></h1><p>Generated from championship events saved on this device.</p></div>
+      <div id="resultsSummary" class="results-summary"></div>
+      <div class="panel"><div class="panel-heading"><div><span class="eyebrow">TRACEABLE RESULTS</span><h2>Verified event report</h2></div><div class="action-row"><button id="exportBtn" class="ghost-btn small-btn">Export results ↗</button><button id="backupBtn" class="ghost-btn small-btn">Backup championship ↓</button><button id="restoreBtn" class="ghost-btn small-btn">Restore backup ↑</button><input type="file" id="restoreFile" accept=".json,application/json" hidden aria-label="Restore championship backup"></div></div><div id="resultsLog" class="event-log"></div></div>
+      <div class="result-actions"><button id="playAgainBtn" class="primary-btn">Back to championship <span>↗</span></button><button id="resetScoresBtn" class="ghost-btn reset-btn">↻ Reset scores &amp; start new game</button></div><p class="reset-note">Resetting clears both scoreboards, the evidence log, and completed trial progress. Your teams and players stay ready for the next round. Export your results first if you want to keep them.</p>
+    </section>
+  </main>
+  <footer><div class="footer-brand">NEXUS<span class="footer-star">✳</span></div><div class="footer-detail"><span>TEAM 260 / CODE NULWO</span><span>ADU COE STEM COMPETITION</span><span>BROWSER-SAVED SCORING · HUMAN-VERIFIED VIDEO</span></div><span class="footer-signoff">MADE FOR MOMENTS THAT MATTER. © 2026</span></footer>
+  <dialog id="howDialog" class="how-dialog" aria-labelledby="howTitle"><div class="dialog-inner"><div class="dialog-top"><span class="eyebrow">THE NEXUS PLAYBOOK</span><button id="closeHow" class="dialog-close" aria-label="Close instructions">×</button></div><h2 id="howTitle">THE GAME<br><span>IS ON.</span></h2><p>Gather your family or friends, split into two teams, and compete across five distinct challenges. Every valid event contributes to the live scoreboard.</p><div class="dialog-steps"><div><b>01</b><strong>Build your teams</strong><span>Add 2–6 players and choose team names.</span></div><div><b>02</b><strong>Choose your trials</strong><span>Play football, memory, engineering, rhythm, and the cooperative finale.</span></div><div><b>03</b><strong>See how you scored</strong><span>Check the evidence trail and export the championship results.</span></div></div><p class="dialog-disclaimer">This is a working browser-saved championship app. Results stay on this browser unless you export a backup. Football calls and tower measurements are confirmed by people, not automated camera AI.</p><button id="dialogStart" class="primary-btn">LET'S PLAY <span aria-hidden="true">↗</span></button></div></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="ai-judge.js"></script><script src="storage.js"></script><script src="app.js"></script><script src="experience.js"></script>
+</body>
+</html>
